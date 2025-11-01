@@ -1,6 +1,6 @@
 # ⚙️ SysDash
 
-**SysDash** es un panel de automatización y monitoreo de sistema escrito en **Bash**.
+**SysDash** es un panel de automatización y monitoreo de sistema para **Windows** escrito en **Bash**.
 Permite consultar el uso de memoria RAM, disco, red y puertos, además de ejecutar scripts personalizados desde un menú interactivo.
 
 ---
@@ -8,16 +8,13 @@ Permite consultar el uso de memoria RAM, disco, red y puertos, además de ejecut
 ## Tabla de Contenidos
 - [Características](#características)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Instalación](#️-instalación)
+- [Instalación](#instalación)
 - [Menú Principal](#menú-principal)
 - [Scripts Incluidos](#scripts-incluidos)
 - [Requisitos](#requisitos)
 - [Personalización](#personalización)
 - [Licencia](#licencia)
-- [Autor](#-autor)
-
-
-
+- [Autor](#autor)
 
 ## Características
 
@@ -25,7 +22,7 @@ Permite consultar el uso de memoria RAM, disco, red y puertos, además de ejecut
 * 💾 Información detallada del **uso en disco** por carpeta.
 * 🌐 Escaneo de red local para detectar **dispositivos conectados**.
 * 🔌 Monitoreo de **puertos abiertos** y procesos asociados.
-* 🖥️ Compatible con **Linux** y **Windows (Git Bash / WSL)**.
+* 🖥️ Compatible con **Windows (Git Bash / WSL)**.
 
 ---
 
@@ -36,19 +33,22 @@ SysDash/
 ├── menu.sh
 ├── ram_usage.sh
 ├── disk_usage.sh
-├── network_scan.sh
-├── port_monitor.sh
+├── red_scanner.sh
+├── help.sh
+├── download_organizer.sh
+├── LICENSE
 └── README.md
 ```
+Al ejecutar el script ` download_organizer.sh ` se crea una carpeta ` logs ` y dentro un archivo ` Log_FILE.log ` en el que se guarda la información sobre la ejecución del script.
 
 ---
 
-## ⚙️ Instalación
+## Instalación
 
 ### 🔹 Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/SysDash.git
+git clone https://github.com/Martin93K/SysDash.git
 cd SysDash
 ```
 
@@ -97,7 +97,6 @@ Selecciona una opción:
 
 ## Requisitos
 
-* **Linux:** Bash 4+, `ss`, `df`, `du`, `awk`, `grep`, `sort`
 * **Windows:** [Git Bash](https://gitforwindows.org/) o [WSL](https://learn.microsoft.com/windows/wsl/), con PowerShell habilitado
 
 ---
@@ -121,6 +120,6 @@ Este proyecto está disponible bajo la [Licencia MIT](./SysDash/LICENSE).
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Desarrollado por:** [Martin Kachechca](https://github.com/Martin93K)

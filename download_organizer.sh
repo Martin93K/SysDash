@@ -6,7 +6,7 @@ if [[ ! -d "logs" ]]; then
 fi
 touch "$ruta_actual/logs/Log_FILE.log"
 LOG_FILE="$ruta_actual/logs/Log_FILE.log"
-ruta_downloads="/c/Users/Asus/Downloads"
+ruta_downloads=$(powershell.exe -NoProfile -Command "(Get-ItemProperty 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders').'{374DE290-123F-4565-9164-39C4925E467B}'" | tr -d '\r')
 INTERVALO_MINUTOS=1
 INTERVALO_SEGUNDOS=$((INTERVALO_MINUTOS * 60))
 echo "$(date): Iniciando organización de descargas" >> "$LOG_FILE"
