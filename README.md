@@ -86,12 +86,14 @@ Selecciona una opción:
 
 ## Scripts incluidos
 
-| Script            | Descripción                                                        |
-| ----------------- | ------------------------------------------------------------------ |
-| `menu.sh`         | Panel principal para ejecutar todas las funciones.                 |
-| `ram_usage.sh`    | Muestra la memoria libre, total y los 5 procesos que más consumen. |
-| `disk_usage.sh`   | Informa el uso de disco total y las carpetas más grandes en MB.    |
-| `network_scan.sh` | Escanea la red local, los puertos abiertos y los procesos que los utilizan.   |
+| Script                   | Descripción                                                        |
+| ------------------------ | ------------------------------------------------------------------ |
+| `menu.sh`                | Panel principal para ejecutar todas las funciones.                 |
+| `ram_usage.sh`           | Muestra la memoria libre, total y los 5 procesos que más consumen. |
+| `disk_usage.sh`          | Informa el uso de disco total y las carpetas más grandes en MB.    |
+| `red_scanner.sh`         | Escanea la red local, los puertos abiertos y los procesos que los utilizan. |
+| `download_organizer.sh`  | Organizador de descargas en: Documentos, Imágenes, Videos, Audio, Comprimidos, Programas, Otros. |
+| `help.sh`                | Ayudas sobre salidas de scripts e interpretación de datos. |
 
 ---
 
