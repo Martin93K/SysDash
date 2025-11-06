@@ -24,7 +24,9 @@ menu(){
             sleep 1.5
             clear
             break;; 
-        *) echo "Opción no Válida" ;;
+        *) 
+        echo "Opción no Válida"
+        sleep 1 ;;
         esac
     done
 }

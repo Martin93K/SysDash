@@ -23,4 +23,4 @@ Get-Process | Sort-Object -Property WorkingSet -Descending | Select-Object -Firs
 "
 echo 
 echo "Presione cualquier tecla para volver..."
-read 
+read
