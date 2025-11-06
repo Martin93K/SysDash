@@ -74,6 +74,7 @@ Puedes agregar sysdash al path de windows para poder ejecutarlo directamente con
 - Reemplazar en la línea `12` "ruta de instalación" (sin comillas) por la ruta donde se clonó este repositorio (no incluir el archivo menu.sh en la ruta). 
 
    - **Ej:** Si la ruta es: `C:\Users\user\SysDash`, la línea **12** quedaría: 
+   
    `"C:\Program Files\Git\bin\bash.exe" -c "cd C:\Users\user\SysDash && ./menu.sh"`
 
 - Copiar el archivo `sysdash.bat` y pegarlo en la ruta: `C:\Windows\`
