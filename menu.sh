@@ -1,24 +1,26 @@
 #!/bin/bash
-
+█
 menu(){
     while true; do
         clear
         echo -e "\e[34m
-             ____  __   __  ____    ____      _      ____    _   _ 
-            / ___| \ \ / / / ___|  |  _ \    / \    / ___|  | | | |
-            \___ \  \ V /  \___ \  | | | |  / _ \   \___ \  | |_| |
-             ___) |  | |    ___) | | |_| | / ___ \   ___) | |  _  |
-            |____/   |_|   |____/  |____/ /_/   \_\ |____/  |_| |_|  
-                      Developed By Martín Kachechca \e[0m"
+            ███████ ██║   ██ ███████ ██████   █████  ███████ ██║  ██║
+            ██║     ██║   ██ ██║     ██║  ██ ██║  ██ ██║     ██║  ██║
+            ███████  ██║ ██  ███████ ██║  ██ ███████ ███████ ███████║
+                 ██    ██         ██ ██║  ██ ██║  ██      ██ ██║  ██║
+            ███████    ██    ███████ ██████  ██║  ██ ███████ ██║  ██║
+            ╚═════╝    ╚╝    ╚═════╝ ╚════╝  ╚═════╝ ╚═════╝ ╚═════╝
+        \e[0m"
+        echo -e "\e[38;5;245m                    System automation and monitoring panel \e[0m"
         echo ""
-        echo -e "\e[34m======== MENU ========\e[0m"
+        echo -e "\e[38;5;240m======== MENU ========\e[0m"
         echo "1. Download Organizer"
         echo "2. RAM Usage"
         echo "3. DISK Usage"
         echo "4. Red Scanner"
         echo "5. Ayuda"
         echo "0. Salir"
-        echo -e "\e[34m======================\e[0m"
+        echo -e "\e[38;5;240m======================\e[0m"
         echo ""
         read -p "Selecciona una opción: " option
 

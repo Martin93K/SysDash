@@ -1,4 +1,9 @@
-# ⚙️ SysDash
+# SysDash
+![](./img/panel.png)
+<!-- ![status](https://img.shields.io/badge/status-active-brightgreen) descomentar cuando se termine el proyecto -->
+![wip](https://img.shields.io/badge/status-WIP-orange)
+![license](https://img.shields.io/badge/license-MIT-blue)
+![bash](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)
 
 **SysDash** es un panel de automatización y monitoreo de sistema para **Windows** escrito en **Bash**.
 Permite consultar el uso de memoria RAM, disco, red y puertos, además de ejecutar scripts personalizados desde un menú interactivo.
