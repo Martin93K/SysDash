@@ -1,8 +1,7 @@
 # SysDash
-![](./img/panel.png)
 <!-- ![status](https://img.shields.io/badge/status-active-brightgreen) descomentar cuando se termine el proyecto -->
 ![wip](https://img.shields.io/badge/status-WIP-orange)
-![license](https://img.shields.io/badge/license-MIT-blue)
+[![license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Martin93K/SysDash?tab=MIT-1-ov-file)
 ![bash](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)
 
 **SysDash** es un panel de automatización y monitoreo de sistema para **Windows** escrito en **Bash**.
