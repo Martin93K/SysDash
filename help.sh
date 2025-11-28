@@ -1,9 +1,10 @@
 #!/bin/bash
 clear
-echo "Red Scanner HELP"
+echo -e "\e[31mRed Scanner HELP\e[0m"
 echo
-echo "Local Address:"
-echo "--------------"
+echo "---------------"
+echo -e "\e[34m Local Address:\e[0m"
+echo "---------------"
 echo "Es el número de puerto TCP en el que el programa está escuchando o enviando datos.
 
   Puerto | Servicio típico    | Descripción
@@ -14,9 +15,9 @@ echo "Es el número de puerto TCP en el que el programa está escuchando o envia
     3306 | MySQL	          | Base de datos local
     5000 | Personal/API local | Servidor en desarrollo (Flask, Node.js, etc.)
 "
-echo "------"
-echo "State:"
-echo "------"
+echo "-------"
+echo -e "\e[34m State: \e[0m"
+echo "-------"
 echo "
 Estado             | Significado    
 ---------------------------------------------------------------------------------
@@ -24,9 +25,9 @@ Listen             | El programa está esperando conexiones.
 Established        | Hay una conexión activa y en uso entre tu PC y otra máquina.	  
 TimeWait/CloseWait | Conexiones que se están cerrando o esperando confirmación.           
 "
-echo "--------------"
-echo "OwningProcess:"
-echo "--------------"
+echo "---------------"
+echo -e "\e[34m OwningProcess: \e[0m"
+echo "---------------"
 echo "Es el ID del proceso (PID) que posee esa conexión o puerto.
 Desde PowerShell se puede ver el programa con el comando:
 "
